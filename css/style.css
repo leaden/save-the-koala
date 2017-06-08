@@ -1,19 +1,54 @@
+
+.nav ul li a{
+	float: left;
+}
+
+
+
+#portada{
+	background-image:url(../img/portada.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+
 /*
 wood brown: A89F68;
 army green: 41521F;
 */
 
-body{
-	font-family: 'Lato', sans-serif;
-}
-
-#portada{
-	background: url(../img/portada.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
 
 #portada h3, p{
 	color: white;
+}
+
+.navbar{
+	background-color: transparent;
+}
+
+/*SECTION 2*/
+img{
+	width: 100%;
+}
+
+#second-section h1{
+  color:#41521F;
+}
+
+#second-section p{
+ color: black;
+}
+
+/*SECTION 3*/
+
+#third-section{
+	background-color: #A89F68;
+}
+
+#third-section img{
+   border:10px solid white;
+   width:100%;
+   padding: 
 }
