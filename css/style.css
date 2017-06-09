@@ -1,9 +1,19 @@
 
+
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+
 .nav ul li a{
 	float: left;
 }
 
-
+/*SECCION BIENVENIDA*/
 
 #portada{
 	background-image:url(../img/portada.jpg);
@@ -12,13 +22,6 @@
 	background-size: cover;
 	height: 100vh;
 }
-
-
-/*
-wood brown: A89F68;
-army green: 41521F;
-*/
-
 
 #portada h3, p{
 	color: white;
@@ -49,6 +52,29 @@ img{
 
 #third-section img{
    border:10px solid white;
-   width:100%;
-   padding: 
+
 }
+
+/*SECTION 4*/
+
+.help{
+	background-image:url(../img/all.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.help h5, h3, p{
+   color: white;
+}
+
+/*SECTION 5*/
+
+.text-icon p{
+	color: black;
+
+}
+
+
+
